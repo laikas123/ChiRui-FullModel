@@ -804,7 +804,7 @@ struct config49 : nnet::dense_config {
     static const unsigned n_out = N_LAYER_49;
     static const unsigned io_type = nnet::io_stream;
     static const unsigned strategy = nnet::resource;
-    static const unsigned reuse_factor = 16384;
+    static const unsigned reuse_factor = 256;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 65536;
     static const bool store_weights_in_bram = false;
